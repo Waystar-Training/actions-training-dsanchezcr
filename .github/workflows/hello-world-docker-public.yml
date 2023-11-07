@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: Waystar-Training/hello-world-docker-action@v1
+        uses: Waystar-Training/hello-world-docker-action@v1.0
         with:
-          who-to-greet: '@octocat'
+          who-to-greet: '@dsanchezcr'
