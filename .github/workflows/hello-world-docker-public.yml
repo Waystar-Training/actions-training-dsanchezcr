@@ -3,6 +3,7 @@ on: [workflow_dispatch]
 
 jobs:
   test-action:
+    environment: QA
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
